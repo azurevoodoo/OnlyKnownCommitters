@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "gitHubPayload",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "pullrequestvalidatequeue",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "disabled": false
+}
